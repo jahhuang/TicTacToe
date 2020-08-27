@@ -9,7 +9,16 @@ def print_board(array_board):
     print('-----------------')
     print('     |     |     ')
     print(board[6] + '|' + board[7] + '|' + board[8])
-    
-def check_for_winner(board):
-    if 
+
+def check_for_winner(b, mark):
+    return ((b[0] == mark and b[1] == mark and b[2] == mark) 
+    or (b[3] == mark and b[4] == mark and b[5] == mark) 
+    or (b[6] == mark and b[7] == mark and b[8] == mark)
+    or (b[0] == mark and b[3] == mark and b[6] == mark)
+    or (b[1] == mark and b[4] == mark and b[7] == mark)
+    or (b[2] == mark and b[5] == mark and b[8] == mark)
+    or (b[0] == mark and b[4] == mark and b[8] == mark)
+    or (b[2] == mark and b[4] == mark and b[6] == mark))
+
+
 
