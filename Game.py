@@ -20,5 +20,5 @@ def check_for_winner(b, mark):
     or (b[0] == mark and b[4] == mark and b[8] == mark)
     or (b[2] == mark and b[4] == mark and b[6] == mark))
 
-
+#Don't need to check for empty space, since there are nine spaces only?
 
